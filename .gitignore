@@ -17,6 +17,11 @@ node_modules
 .settings/
 *.sublime-workspace
 
+
+# Frontend env (kalau pakai Vite / Vue)
+apps/web/.env*
+apps/frontend/.env*
+
 # IDE - VSCode
 .vscode/*
 !.vscode/settings.json
