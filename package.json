@@ -1,0 +1,35 @@
+{
+  "name": "@tugas-kik/source",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {},
+  "private": true,
+  "dependencies": {
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@nx/js": "22.4.5",
+    "@nx/vite": "22.4.5",
+    "@nx/vue": "22.4.5",
+    "@nx/web": "22.4.5",
+    "@nx/workspace": "22.4.5",
+    "@swc-node/register": "~1.9.1",
+    "@swc/core": "~1.5.7",
+    "@swc/helpers": "~0.5.11",
+    "@vitejs/plugin-vue": "^6.0.1",
+    "@vitest/ui": "^4.0.0",
+    "@vue/test-utils": "^2.4.6",
+    "jiti": "2.4.2",
+    "jsdom": "~22.1.0",
+    "nx": "22.4.5",
+    "prettier": "~3.6.2",
+    "tslib": "^2.3.0",
+    "typescript": "~5.9.2",
+    "vite": "^7.0.0",
+    "vitest": "^4.0.0",
+    "vue-tsc": "^2.2.8"
+  },
+  "workspaces": [
+    "apps/*"
+  ]
+}
